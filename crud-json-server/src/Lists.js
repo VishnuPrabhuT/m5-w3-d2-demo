@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Lists(props) {
     let listrows = [];
-    console.log(props);
     props.alldata.forEach((element) => {
         listrows.push(
             <tr key={element.id}>
